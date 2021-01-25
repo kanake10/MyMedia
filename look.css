@@ -1,0 +1,48 @@
+
+
+
+
+
+
+div.empty-div{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solidblack;
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+}
+div.green-div{
+    padding: 60px;
+    position: absolute;
+    border: 1px solid white;
+    transform: rotateX(15deg);
+    -webkit-transform: rotateX(15deg);
+}
+#mee{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    
+}
+
+
+
+header{
+    background-color: grey;
+}
+body{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+img{
+    width: 275px;
+    border-radius: 130px;
+    padding: 3px;
+    margin: 4px;
+}
+
