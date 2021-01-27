@@ -35,6 +35,7 @@ body{
     text-align: center;
 }
 marquee{
-    color: white;
+    color: purple;
     height: 54px;
+    text-align: center;
 }
