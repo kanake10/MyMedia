@@ -13,6 +13,7 @@
    color: white;
    background-color: black;
    
+   
 }
 
 img{
@@ -33,9 +34,16 @@ body{
     background-color: black;
     color: white;
     text-align: center;
+    letter-spacing: 2px;
 }
+
 marquee{
-    color: purple;
+    color: yellow;
     height: 54px;
     text-align: center;
+}
+
+a:hover{
+    
+    color:green;
 }
