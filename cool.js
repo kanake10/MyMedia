@@ -1,7 +1,6 @@
-window.onload = function(){
-    var y=document.getElementById("newme");
-    y.style.color ="green";
-
+window.onload =function(){
+    var y=document.getElementById("newmw");
+    y.style.color="green";
 };
 
 var slideIndex = 0;
@@ -23,6 +22,4 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3500);
    // Change image every 3.5 seconds
-
-
-
+}
