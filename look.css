@@ -4,6 +4,11 @@
     
 }
 
+p {
+    font-size: 2em;
+    font-weight: 500;
+  }
+
 #mee{
 
     padding: 9px;
