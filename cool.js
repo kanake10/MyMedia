@@ -41,3 +41,6 @@ function generateRainbowText(element) {
     element.appendChild(charElem);
   }
 }
+
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
