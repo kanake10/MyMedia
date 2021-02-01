@@ -1,6 +1,6 @@
 window.onload =function(){
     var y=document.getElementById("newme");
-    y.style.color="green";
+    y.style.color="white";
 };
 
 let  slideIndex = 0;
@@ -24,6 +24,7 @@ function showSlides() {
    // Change image every 3.5 seconds
 }
 
+//multicolor effects
 window.addEventListener("load", function() {
   var elements = document.getElementsByClassName("rainbowText");
   for (let i = 0; i < elements.length; i++) {
