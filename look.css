@@ -50,6 +50,7 @@ marquee{
     color: yellow;
     height: 54px;
     text-align: center;
+    animation:inout 2s linear 2s 60;
 }
 
 a:hover{
