@@ -24,12 +24,12 @@ p {
 }
 
 img{
-    width: 60 px;
+    
     height: auto;
     border-radius: 30px;
     padding: 3px;
     margin: 4px;
-    height: 330px;
+  
     vertical-align: center;
 
 }
