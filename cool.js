@@ -46,6 +46,7 @@ function generateRainbowText(element) {
 var d = new Date();
 document.getElementById("demo").innerHTML = d;
 
+
 const root = document.querySelector("#app");
 let { innerHeight, innerWidth } = window;
 console.log(innerHeight, innerWidth);
@@ -56,6 +57,7 @@ if (innerWidth < 300) {
   innerWidth = 750;
 }
 
+// bubble effect
 class Bubble {
   constructor() {
     this.bubbleSpan = undefined;
