@@ -1,96 +1,96 @@
 *{
-    padding: 0;
-    margin: 0;
-    
+  padding: 0;
+  margin: 0;
+  
 }
 
 p {
-    font-size: 20px;
-    font-weight: 50px;
-  }
+  font-size: 20px;
+  font-weight: 50px;
+}
 
 #mee{
 
-    padding: 9px;
-    margin: 10px;
-   font-size: 40px;
-   text-align: center;
-   color: white;
-   background-color: black
-  
+  padding: 9px;
+  margin: 10px;
+ font-size: 40px;
+ text-align: center;
+ color: white;
+ background-color: black
 
-   
-   
+
+ 
+ 
 }
 
 img{
-    width: 505px;
-    height: 350px;
-    border-radius: 30px;
-    padding: 3px;
-    margin: 4px;
-    vertical-align: center;
+  width: 505px;
+  height: 350px;
+  border-radius: 30px;
+  padding: 3px;
+  margin: 4px;
+  vertical-align: center;
 
 }
 header{
-    text-align: center;
-    background-color: black;
+  text-align: center;
+  
 
 }
 
 body{
-    background-color: black;
-    color: white;
-    text-align: center;
-    letter-spacing: 2px;
+  
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 marquee{
-    color: yellow;
-    height: 54px;
-    text-align: center;
-    animation:inout 2s linear 2s 60;
+  color: yellow;
+  height: 54px;
+  text-align: center;
+  animation:inout 2s linear 2s 60;
 }
 
 a:hover{
-  border: 2px solid white;
-    color:green;
+border: 2px solid white;
+  color:green;
 }
 
 .mySlides {
-    display: none;
+  display: none;
 }
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    
-  }
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
 
-  /* Fading animation */
+/* Fading animation */
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
-  }
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
 
 
   
