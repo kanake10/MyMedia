@@ -39,10 +39,30 @@ header{
 }
 
 body{
-  
+  background-color: #000;
   color: white;
   text-align: center;
   letter-spacing: 2px;
+  background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.13),       transparent),
+    radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.13), transparent)
+}
+
+canvas {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  position: absolute;
+  bottom: 2vmin;
+  right: 2vmin;
+  color: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
 }
 
 marquee{
@@ -52,10 +72,7 @@ marquee{
   animation:inout 2s linear 2s 60;
 }
 
-a:hover{
-border: 2px solid white;
-  color:green;
-}
+
 
 .mySlides {
   display: none;
