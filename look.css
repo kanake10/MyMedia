@@ -17,11 +17,15 @@ p {
  text-align: center;
  color: white;
  background-color: black
-
-
- 
- 
 }
+body{
+  background-color: black;
+  text-align: center;
+}
+
+
+
+
 
 img{
   width: 505px;
