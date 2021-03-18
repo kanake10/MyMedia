@@ -57,4 +57,8 @@ if (innerWidth < 300) {
   innerWidth = 750;
 }
 
-// bubble effect
+fun dispdate(){
+  var dt=Date();
+  document.body.innerHTML=(dt);
+}
+setInterval(dispdate, 1000)
