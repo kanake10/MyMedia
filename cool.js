@@ -61,4 +61,4 @@ fun dispdate(){
   var dt=Date();
   document.body.innerHTML=(dt);
 }
-setInterval(dispdate, 1000)
+setInterval(dispdate, 1000);

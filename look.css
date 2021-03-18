@@ -96,8 +96,8 @@ marquee{
   font-size: 30px;
   color: white;
   font-weight: 15;
-  align:center;
-  shadow:6px;
+  box-align:center;
+  box-shadow:6px;
   border-color: yellow;
   background-color: black;
 
