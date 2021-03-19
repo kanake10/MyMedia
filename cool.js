@@ -57,8 +57,4 @@ if (innerWidth < 300) {
   innerWidth = 750;
 }
 
-fun dispdate(){
-  var dt=Date();
-  document.body.innerHTML=(dt);
-}
-setInterval(dispdate, 1000);
+
