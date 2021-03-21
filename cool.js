@@ -57,4 +57,3 @@ if (innerWidth < 300) {
   innerWidth = 750;
 }
 
-
