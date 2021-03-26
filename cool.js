@@ -43,8 +43,6 @@ function generateRainbowText(element) {
   }
 }
 
-var d = new Date();
-document.getElementById("demo").innerHTML = d;
 
 
 const root = document.querySelector("#app");
