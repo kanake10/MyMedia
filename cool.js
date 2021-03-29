@@ -44,7 +44,6 @@ function generateRainbowText(element) {
 }
 
 
-
 const root = document.querySelector("#app");
 let { innerHeight, innerWidth } = window;
 console.log(innerHeight, innerWidth);
